@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004350-blue)](https://doi.org/10.82901/nemar.on004350)
+
 ## Executive Functioning Tasks
 
 The data of this dataset was collected as part of an executive functioning battery consisting of three separate tasks: 
