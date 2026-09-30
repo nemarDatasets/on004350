@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Executive Functionning Study for Assessing the Effect of Neurofeedback",
-  "description": "This dataset comprises EEG recordings from 24 participants performing three executive functioning tasks (N-Back, Sustained Attention to Response Task, and Local Global) collected during the first and last sessions of a neurofeedback intervention study. The data were processed and converted to EEGLAB format, with preprocessing including average referencing, downsampling to 256 Hz, and high-pass filtering at 1 Hz. This resource supports investigation of neurofeedback effects on executive function and working memory performance.",
-  "methods_description": "EEG data were collected during three cognitive tasks: N-Back (working memory, 1-3 back conditions), Sustained Attention to Response Task (sustained attention, ~10 minutes), and Local Global (selective attention, local/global conditions). Data were acquired at 2048 Hz, then preprocessed including average referencing, downsampling to 256 Hz, and high-pass filtering at 1 Hz using an elliptical non-linear filter. Two sessions were conducted on the first and last days of the neurofeedback experiment.",
+  "description": "EEG recordings from an executive functioning battery comprising the N-Back, Sustained Attention to Response Task (SART), and Local-Global tasks. Data were collected from 24 participants in two sessions, on the first and last day of a frontal midline theta neurofeedback meditation training experiment, to assess neurofeedback effects on executive function. Data are provided in EEGLAB .set format, with the original .bdf files in the sourcedata folder.",
+  "methods_description": "Participants completed a visual n-back task (1- to 3-back), a SART (digits 0-9, withholding a response to 3), and a local-global letter categorization task. EEG was recorded at 2048 Hz, then down-sampled to 256 Hz, average referenced, and high-pass filtered at 1 Hz with an elliptical filter in Matlab and EEGLAB.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,30 +15,19 @@
       "term": "EEG"
     },
     {
-      "term": "Executive Function",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D056344"
+      "term": "neurofeedback"
+    },
+    {
+      "term": "executive function"
     },
     {
       "term": "working memory"
     },
     {
-      "term": "neurofeedback"
+      "term": "sustained attention"
     },
     {
-      "term": "attention"
-    },
-    {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "N-Back"
-    },
-    {
-      "term": "SART"
-    },
-    {
-      "term": "Local Global"
+      "term": "meditation"
     }
   ],
   "related_identifiers": [
@@ -48,19 +37,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004350",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.3389/fnhum.2020.00246",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds004350.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004350",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -68,7 +57,7 @@
     "eeg"
   ],
   "sizes": [
-    "28.4 GB (497 files)"
+    "26.41 GB (497 files)"
   ],
   "formats": [
     ".bdf",
